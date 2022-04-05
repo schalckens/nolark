@@ -1,0 +1,33 @@
+:root {
+    --maCouleurDominante: #ff6811;
+}
+hr {
+    width: 150px;
+    height: 2px;
+    border: none;
+    background-color: var(--maCouleurDominante);
+    margin: 25px auto;
+}
+fieldset {
+    width : 75%;
+    margin : 0 auto;
+    padding : 10px 0;
+}
+p {
+    text-align: center;
+    padding : 10px 0;
+}
+
+fieldset#sexe {
+    width: 25%;
+}
+h3#alcoolemie {
+    text-align: center;
+}
+h3#amende {
+    text-align: center;
+}
+
+h3#sanction {
+    text-align: center;
+}

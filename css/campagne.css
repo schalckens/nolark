@@ -1,0 +1,45 @@
+:root {
+    --maCouleurDominante: #ff6811;
+}
+
+#grosTitre {
+    color: var(--maCouleurDominante);
+    text-align: center;
+    font-size: xx-large;
+    margin: 25px 0 50px 0;
+    font-weight: bold;
+}
+
+legend {
+    padding: 3px 6px;
+}
+hr {
+    width: 150px;
+    height: 2px;
+    border: none;
+    background-color: var(--maCouleurDominante);
+    margin: 25px auto;
+}
+
+#num_poids {
+    font-weight : bold;
+    margin: 25px 0 25px 350px;
+}
+#sexe{
+    font-weight : bold;
+    margin : 25px 0 25px 340px;
+}
+#Homme{
+    font-weight : normal;
+    margin : auto;
+}
+#Femme{
+    font-weight : normal;
+    margin : auto;
+}
+#num_verre {
+    font-weight : bold;
+    margin: 25px 0 25px 285px;
+}
+
+

@@ -1,0 +1,86 @@
+:root {
+    --maCouleurDominante: #ff6811;
+}
+
+#grosTitre {
+    color: var(--maCouleurDominante);
+    text-align: center;
+    font-size: xx-large;
+    margin: 10px 0;
+    font-weight: bold;
+}
+
+.titresArticles {
+    text-transform: uppercase;
+    margin-bottom: 25px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.sousTitres {
+    margin : 30px 0px 25px 25px ;
+}
+.paraf {
+    margin-left : 50px;
+}
+
+p:not(footer), .sousTitres ~ ul {
+    margin: 10px 25px;
+    text-align: justify;
+}
+.sousRubriques{
+    font-size : smaller;
+    font-weight : bold;
+    margin-left : 50px;
+    margin-top : 25px;
+}
+.sousParaf {
+    margin-left : 75px;
+}
+.sousTitres ~ ul {
+    margin-left: 75px!important;
+}
+
+up {
+    style : none;
+    text-align : center;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, tr, td {
+    border-style: solid;
+    border-width: 1px;
+    border-color: var(--maCouleurDominante);
+    text-align: center;
+    padding: 5px;    
+}
+
+table th {
+    color: white;
+    border-top-color: var(--maCouleurDominante);
+    background-color: var(--maCouleurDominante);
+}
+table th:first-child{
+    border-right-color : white;
+}
+table th:last-child {
+    border-left-color : white;
+}
+
+hr {
+    width: 150px;
+    height: 1px;
+    border: none;
+    background-color: var(--maCouleurDominante);
+    margin: 25px auto;
+}
+#pfin {
+    color: var(--maCouleurDominante);
+    text-align: center;
+    font-size: x-large;
+    margin-top: 25px;
+}
